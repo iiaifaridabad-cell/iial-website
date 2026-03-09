@@ -7,16 +7,14 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div className="lg:col-span-1">
-            <Link href="/">
-              <a className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
-                  <Brain className="w-5 h-5 text-white" />
-                </div>
-                <div className="flex flex-col leading-none">
-                  <span className="font-bold text-sm tracking-tight text-white">AI Learning</span>
-                  <span className="text-xs text-gray-400 font-medium">by IIEL</span>
-                </div>
-              </a>
+            <Link href="/" className="flex items-center gap-2 mb-4">
+              <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
+                <Brain className="w-5 h-5 text-white" />
+              </div>
+              <div className="flex flex-col leading-none">
+                <span className="font-bold text-sm tracking-tight text-white">AI Learning</span>
+                <span className="text-xs text-gray-400 font-medium">by IIEL</span>
+              </div>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-5">
               Teaching practical AI skills through real business workflows so learners can become more productive, job-ready, and future-prepared.
@@ -48,8 +46,8 @@ export function Footer() {
                 { label: "Careers", href: "/careers" },
               ].map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href}>
-                    <a className="text-sm text-gray-400 hover:text-white transition-colors">{item.label}</a>
+                  <Link href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}
@@ -67,8 +65,8 @@ export function Footer() {
                 { label: "Terms of Service", href: "#" },
               ].map((item) => (
                 <li key={item.label}>
-                  <Link href={item.href}>
-                    <a className="text-sm text-gray-400 hover:text-white transition-colors">{item.label}</a>
+                  <Link href={item.href} className="text-sm text-gray-400 hover:text-white transition-colors">
+                    {item.label}
                   </Link>
                 </li>
               ))}

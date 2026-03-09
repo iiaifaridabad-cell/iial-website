@@ -255,7 +255,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-12 flex-wrap">
             <Link href="/enroll">
-              <a>
+              
                 <Button
                   data-testid="button-hero-enroll"
                   size="lg"
@@ -264,10 +264,9 @@ export default function Home() {
                   Enroll Now
                   <ArrowRight className="w-4 h-4" />
                 </Button>
-              </a>
             </Link>
             <Link href="/use-cases">
-              <a>
+              
                 <Button
                   data-testid="button-hero-use-cases"
                   size="lg"
@@ -277,7 +276,6 @@ export default function Home() {
                   <Play className="w-4 h-4" />
                   Explore Use Cases
                 </Button>
-              </a>
             </Link>
           </div>
 
@@ -366,12 +364,11 @@ export default function Home() {
                 ))}
               </div>
               <Link href="/about">
-                <a>
+                
                   <Button data-testid="button-about-learn-more" variant="outline" className="gap-2">
                     Learn More About IIEL
                     <ChevronRight className="w-4 h-4" />
                   </Button>
-                </a>
               </Link>
             </div>
             <div className="relative">
@@ -575,12 +572,11 @@ export default function Home() {
               <h3 className="font-bold text-foreground mb-2">And Much More</h3>
               <p className="text-sm text-muted-foreground mb-4">Advanced prompting, automation workflows, and AI strategy for your specific industry.</p>
               <Link href="/program">
-                <a>
+                
                   <Button variant="outline" size="sm" data-testid="button-view-full-program" className="gap-1.5">
                     View Full Program
                     <ArrowRight className="w-3.5 h-3.5" />
                   </Button>
-                </a>
               </Link>
             </div>
           </div>
@@ -771,12 +767,11 @@ export default function Home() {
           </div>
           <div className="text-center mt-10">
             <Link href="/careers">
-              <a>
+              
                 <Button data-testid="button-view-careers" variant="outline" className="gap-2">
                   Explore Career Paths
                   <ArrowRight className="w-4 h-4" />
                 </Button>
-              </a>
             </Link>
           </div>
         </div>
@@ -883,12 +878,11 @@ export default function Home() {
           </Accordion>
           <div className="text-center mt-8">
             <Link href="/faq">
-              <a>
+              
                 <Button data-testid="button-view-all-faq" variant="outline" size="sm" className="gap-1.5">
                   View All FAQs
                   <ChevronRight className="w-3.5 h-3.5" />
                 </Button>
-              </a>
             </Link>
           </div>
         </div>
@@ -915,7 +909,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 flex-wrap">
             <Link href="/enroll">
-              <a>
+              
                 <Button
                   data-testid="button-final-cta-enroll"
                   size="lg"
@@ -924,10 +918,9 @@ export default function Home() {
                   Enroll Now — Secure Your Spot
                   <ArrowRight className="w-4 h-4" />
                 </Button>
-              </a>
             </Link>
             <Link href="/contact">
-              <a>
+              
                 <Button
                   data-testid="button-final-cta-contact"
                   size="lg"
@@ -937,7 +930,6 @@ export default function Home() {
                   <Mail className="w-4 h-4" />
                   Contact Us First
                 </Button>
-              </a>
             </Link>
           </div>
         </div>
