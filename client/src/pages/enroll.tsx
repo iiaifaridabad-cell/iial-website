@@ -40,8 +40,8 @@ const enrollSchema = z.object({
 type EnrollFormData = z.infer<typeof enrollSchema>;
 
 const benefits = [
-  { icon: Brain, text: "5 hands-on AI modules" },
-  { icon: Clock, text: "90-minute power session" },
+  { icon: Brain, text: "24 hands-on AI sessions" },
+  { icon: Clock, text: "3-month structured program" },
   { icon: Award, text: "IIEL certificate included" },
   { icon: Zap, text: "Immediate skill application" },
   { icon: Users, text: "Expert-led training" },
@@ -274,7 +274,7 @@ export default function Enroll() {
                       { step: "1", text: "Submit your enrollment form" },
                       { step: "2", text: "Receive confirmation email within 24 hours" },
                       { step: "3", text: "Get session link and preparation guide" },
-                      { step: "4", text: "Attend your 90-minute AI session" },
+                      { step: "4", text: "Attend your first AI session" },
                       { step: "5", text: "Receive your IIEL certificate" },
                     ].map((item) => (
                       <div key={item.step} className="flex items-center gap-3">

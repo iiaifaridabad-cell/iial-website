@@ -226,7 +226,7 @@ export default function Careers() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,rgba(29,78,216,0.12),rgba(0,0,0,0))]" />
         <div className="relative z-10 max-w-2xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Start Your AI Career Journey</h2>
-          <p className="text-gray-400 mb-8 leading-relaxed">Join the professionals who are already ahead of the curve. Your AI skills start with a single 90-minute session.</p>
+          <p className="text-gray-400 mb-8 leading-relaxed">Join the professionals who are already ahead of the curve. Build future-ready AI skills through the structured 3-month program.</p>
           <Link href="/enroll">
             <Button data-testid="button-careers-enroll" size="lg" className="gap-2 bg-blue-600 text-white border-0 px-10">Enroll Now <ArrowRight className="w-4 h-4" /></Button>
           </Link>

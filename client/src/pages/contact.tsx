@@ -77,12 +77,12 @@ export default function Contact() {
       <section className="pt-28 pb-16 bg-gradient-to-b from-gray-950 to-gray-900 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_0%,rgba(29,78,216,0.2),rgba(0,0,0,0))]" />
         <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
-          <Badge className="mb-4 bg-blue-500/10 text-blue-300 border-blue-500/20">Get in Touch</Badge>
+          <Badge className="mb-4 bg-blue-500/10 text-blue-300 border-blue-500/20">Contact / Talk to Advisor</Badge>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-5">
-            Contact Us
+            Talk to an Advisor
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed">
-            Have questions about the program? We'd love to hear from you and help you take the next step.
+            Have questions about the 3-month program? Our team is ready to answer and help you take the next step.
           </p>
         </div>
       </section>

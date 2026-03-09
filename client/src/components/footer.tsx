@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Brain, Twitter, Linkedin, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Brain, Linkedin, Instagram, Youtube, Facebook, Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -17,20 +17,20 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-5">
-              Teaching practical AI skills through real business workflows so learners can become more productive, job-ready, and future-prepared.
+              A 3-month structured AI program teaching practical skills for data analysis, automation, marketing, coding, and business productivity.
             </p>
             <div className="flex items-center gap-3 flex-wrap">
-              <a data-testid="link-social-twitter" href="#" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
-                <Twitter className="w-4 h-4" />
+              <a data-testid="link-social-linkedin" href="#" aria-label="LinkedIn" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
+                <Linkedin className="w-4 h-4" aria-hidden="true" />
               </a>
-              <a data-testid="link-social-linkedin" href="#" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
-                <Linkedin className="w-4 h-4" />
+              <a data-testid="link-social-instagram" href="#" aria-label="Instagram" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
+                <Instagram className="w-4 h-4" aria-hidden="true" />
               </a>
-              <a data-testid="link-social-instagram" href="#" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
-                <Instagram className="w-4 h-4" />
+              <a data-testid="link-social-youtube" href="#" aria-label="YouTube" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
+                <Youtube className="w-4 h-4" aria-hidden="true" />
               </a>
-              <a data-testid="link-social-youtube" href="#" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
-                <Youtube className="w-4 h-4" />
+              <a data-testid="link-social-facebook" href="#" aria-label="Facebook" className="w-8 h-8 rounded-md bg-gray-800 flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors">
+                <Facebook className="w-4 h-4" aria-hidden="true" />
               </a>
             </div>
           </div>
@@ -41,7 +41,7 @@ export function Footer() {
               {[
                 { label: "Home", href: "/" },
                 { label: "About", href: "/about" },
-                { label: "Program", href: "/program" },
+                { label: "Curriculum", href: "/curriculum" },
                 { label: "Use Cases", href: "/use-cases" },
                 { label: "Careers", href: "/careers" },
               ].map((item) => (
@@ -59,7 +59,7 @@ export function Footer() {
             <ul className="flex flex-col gap-2.5">
               {[
                 { label: "FAQ", href: "/faq" },
-                { label: "Contact Us", href: "/contact" },
+                { label: "Contact / Talk to Advisor", href: "/contact" },
                 { label: "Enroll Now", href: "/enroll" },
                 { label: "Privacy Policy", href: "#" },
                 { label: "Terms of Service", href: "#" },

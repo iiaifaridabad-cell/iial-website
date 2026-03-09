@@ -5,7 +5,7 @@ import { Menu, X, Brain } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "/about" },
-  { label: "Program", href: "/program" },
+  { label: "Curriculum", href: "/curriculum" },
   { label: "Use Cases", href: "/use-cases" },
   { label: "Careers", href: "/careers" },
   { label: "FAQ", href: "/faq" },
@@ -41,7 +41,7 @@ export function Nav() {
           <Link
             href="/"
             data-testid="link-logo"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 flex-shrink-0"
           >
             <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
               <Brain className="w-5 h-5 text-white" />
@@ -71,8 +71,8 @@ export function Nav() {
 
           <div className="hidden md:flex items-center gap-2">
             <Link href="/enroll">
-              <Button data-testid="button-enroll-nav" size="sm">
-                Enroll Now
+              <Button data-testid="button-join-nav" size="sm">
+                Join the Program
               </Button>
             </Link>
           </div>
@@ -107,8 +107,8 @@ export function Nav() {
             ))}
             <div className="pt-2 mt-1 border-t border-border">
               <Link href="/enroll">
-                <Button data-testid="button-enroll-mobile" className="w-full">
-                  Enroll Now
+                <Button data-testid="button-join-mobile" className="w-full">
+                  Join the Program
                 </Button>
               </Link>
             </div>

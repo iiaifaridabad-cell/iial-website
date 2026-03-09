@@ -78,7 +78,7 @@ export default function About() {
                   Our mission is straightforward: teach practical AI skills through real business workflows so learners can become more productive, job-ready, and future-prepared.
                 </p>
                 <p>
-                  We believe AI is the most important professional skill of the next decade. But it shouldn't be gatekept behind expensive degrees or technical barriers. Our 90-minute intensive program is proof that you can go from zero to job-ready in a single session.
+                  We believe AI is the most important professional skill of the next decade. But it shouldn't be gatekept behind expensive degrees or technical barriers. Our 3-month structured program proves that you can go from zero to AI-ready through practical, focused learning.
                 </p>
               </div>
               <Card className="mt-6 border-primary/20 bg-primary/5">
@@ -151,8 +151,8 @@ export default function About() {
             <Link href="/enroll">
               <Button data-testid="button-about-enroll" size="lg" className="gap-2 bg-blue-600 text-white border-0">Enroll Now <ArrowRight className="w-4 h-4" /></Button>
             </Link>
-            <Link href="/program">
-              <Button data-testid="button-about-program" size="lg" variant="outline" className="gap-2 border-gray-600 text-gray-200 bg-transparent">View Program</Button>
+            <Link href="/curriculum">
+              <Button data-testid="button-about-curriculum" size="lg" variant="outline" className="gap-2 border-gray-600 text-gray-200 bg-transparent">View Curriculum</Button>
             </Link>
           </div>
         </div>

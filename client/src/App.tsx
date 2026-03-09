@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import About from "@/pages/about";
-import Program from "@/pages/program";
+import Curriculum from "@/pages/curriculum";
 import UseCases from "@/pages/use-cases";
 import Careers from "@/pages/careers";
 import FAQ from "@/pages/faq";
@@ -31,7 +31,8 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/program" component={Program} />
+        <Route path="/curriculum" component={Curriculum} />
+        <Route path="/program" component={Curriculum} />
         <Route path="/use-cases" component={UseCases} />
         <Route path="/careers" component={Careers} />
         <Route path="/faq" component={FAQ} />
