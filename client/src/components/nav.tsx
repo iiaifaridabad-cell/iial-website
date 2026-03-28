@@ -48,7 +48,7 @@ export function Nav() {
             </div>
             <div className="flex flex-col leading-none">
               <span className="font-bold text-sm tracking-tight text-foreground">AI Learning</span>
-              <span className="text-[10px] text-muted-foreground font-medium tracking-wide uppercase">by IIAI</span>
+              <span className="text-[10px] text-muted-foreground font-medium tracking-wide uppercase">by International Institute of Artificial Intelligence</span>
             </div>
           </Link>
 
