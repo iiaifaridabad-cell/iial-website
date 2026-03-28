@@ -215,7 +215,7 @@ export default function UseCases() {
         <div className="relative z-10 max-w-2xl mx-auto px-4 text-center">
           <TrendingUp className="w-10 h-10 text-blue-400 mx-auto mb-4" />
           <h2 className="text-3xl font-bold text-white mb-4">Master All These Use Cases</h2>
-          <p className="text-gray-400 mb-8 leading-relaxed">All six use cases are covered in the AI Learning by IIEL program. Join the next session and apply these skills immediately.</p>
+          <p className="text-gray-400 mb-8 leading-relaxed">All six use cases are covered in the AI Learning by IIAI program. Join the next session and apply these skills immediately.</p>
           <Link href="/enroll">
             <Button data-testid="button-use-cases-enroll" size="lg" className="gap-2 bg-blue-600 text-white border-0 px-10">Enroll Now <ArrowRight className="w-4 h-4" /></Button>
           </Link>

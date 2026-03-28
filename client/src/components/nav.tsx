@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Brain } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "/about" },
@@ -41,14 +41,14 @@ export function Nav() {
           <Link
             href="/"
             data-testid="link-logo"
-            className="flex items-center gap-2 flex-shrink-0"
+            className="flex items-center gap-2.5 flex-shrink-0"
           >
-            <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
-              <Brain className="w-5 h-5 text-white" />
+            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-600 to-violet-600 flex items-center justify-center shadow-sm">
+              <span className="text-white font-black text-xs tracking-tight leading-none">IIAI</span>
             </div>
             <div className="flex flex-col leading-none">
               <span className="font-bold text-sm tracking-tight text-foreground">AI Learning</span>
-              <span className="text-xs text-muted-foreground font-medium">by IIEL</span>
+              <span className="text-[10px] text-muted-foreground font-medium tracking-wide uppercase">by IIAI</span>
             </div>
           </Link>
 

@@ -42,7 +42,7 @@ type EnrollFormData = z.infer<typeof enrollSchema>;
 const benefits = [
   { icon: Brain, text: "24 hands-on AI sessions" },
   { icon: Clock, text: "3-month structured program" },
-  { icon: Award, text: "IIEL certificate included" },
+  { icon: Award, text: "IIAI certificate included" },
   { icon: Zap, text: "Immediate skill application" },
   { icon: Users, text: "Expert-led training" },
   { icon: Star, text: "4.9/5 learner rating" },
@@ -94,7 +94,7 @@ export default function Enroll() {
             <span className="text-xs font-medium text-blue-300">Limited Seats Available</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-5 leading-tight">
-            Enroll in AI Learning by IIEL
+            Enroll in AI Learning by IIAI
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
             Secure your spot in the next session and start your journey to becoming AI-ready.
@@ -275,7 +275,7 @@ export default function Enroll() {
                       { step: "2", text: "Receive confirmation email within 24 hours" },
                       { step: "3", text: "Get session link and preparation guide" },
                       { step: "4", text: "Attend your first AI session" },
-                      { step: "5", text: "Receive your IIEL certificate" },
+                      { step: "5", text: "Receive your IIAI certificate" },
                     ].map((item) => (
                       <div key={item.step} className="flex items-center gap-3">
                         <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center text-xs font-bold text-primary-foreground flex-shrink-0">

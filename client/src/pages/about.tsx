@@ -13,7 +13,7 @@ const values = [
   { icon: Rocket, title: "Career-Focused", desc: "Skills taught are directly tied to job-readiness and business outcomes." },
   { icon: Shield, title: "Quality Assured", desc: "Curriculum developed and validated by industry practitioners and educators." },
   { icon: Globe, title: "Future-Ready", desc: "Aligned with where AI and business are heading, not where they were." },
-  { icon: Award, title: "Certified Learning", desc: "All completions are recognized with an IIEL certificate of achievement." },
+  { icon: Award, title: "Certified Learning", desc: "All completions are recognized with an IIAI certificate of achievement." },
 ];
 
 const stats = [
@@ -31,7 +31,7 @@ export default function About() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-blue-500/10 text-blue-300 border-blue-500/20">About Us</Badge>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
-            About AI Learning by IIEL
+            About AI Learning by IIAI
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed max-w-2xl mx-auto">
             We exist to make AI accessible, practical, and immediately useful for everyone — from students to seasoned professionals.
@@ -58,10 +58,10 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  AI Learning by IIEL was born from a simple observation: most AI courses teach you concepts, but not how to actually use AI in a real job or business setting. There's a gap between knowing AI exists and knowing how to apply it.
+                  AI Learning by IIAI was born from a simple observation: most AI courses teach you concepts, but not how to actually use AI in a real job or business setting. There's a gap between knowing AI exists and knowing how to apply it.
                 </p>
                 <p>
-                  IIEL — the Institute for Innovative Education and Learning — has always been committed to practical, outcome-focused training. When we saw the AI revolution accelerating, we knew the most important thing we could do was build a program that bridges theory and application.
+                  IIAI — the International Institute of Artificial Intelligence — has always been committed to practical, outcome-focused training. When we saw the AI revolution accelerating, we knew the most important thing we could do was build a program that bridges theory and application.
                 </p>
                 <p>
                   Our AI Learning program was designed from the ground up around real business workflows: the tasks people actually do every day at work. Email writing, data analysis, marketing, reporting, coding, presentations — we took these real tasks and built AI workflows around them.
@@ -86,7 +86,7 @@ export default function About() {
                   <p className="text-foreground font-semibold italic leading-relaxed">
                     "AI will not replace people. People who know AI will replace people who don't."
                   </p>
-                  <p className="text-sm text-muted-foreground mt-2">— AI Learning by IIEL Core Belief</p>
+                  <p className="text-sm text-muted-foreground mt-2">— AI Learning by IIAI Core Belief</p>
                 </CardContent>
               </Card>
             </div>
@@ -145,7 +145,7 @@ export default function About() {
       <section className="py-20 bg-gray-950 relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_50%,rgba(29,78,216,0.12),rgba(0,0,0,0))]" />
         <div className="relative z-10 max-w-2xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Ready to Join IIEL?</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Ready to Join IIAI?</h2>
           <p className="text-gray-400 mb-8 leading-relaxed">Take the first step toward becoming AI-ready with a practical, certified training program.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center flex-wrap">
             <Link href="/enroll">

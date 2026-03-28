@@ -232,9 +232,9 @@ export default function Contact() {
 
               <div className="space-y-4">
                 {[
-                  { icon: Mail, title: "Email", value: "info@ailearning.iiel.edu", desc: "Best for detailed inquiries" },
-                  { icon: Phone, title: "Phone", value: "+1 (555) 123-4567", desc: "Mon-Fri, 9am-6pm" },
-                  { icon: MapPin, title: "Location", value: "IIEL Campus, Technology District", desc: "Visit us for in-person sessions" },
+                  { icon: Mail, title: "Email", value: "iiaifaridabad@gmail.com", desc: "Best for detailed inquiries" },
+                  { icon: Phone, title: "Phone", value: "098918 32103", desc: "Mon–Sat, 9am–6pm IST" },
+                  { icon: MapPin, title: "Location", value: "2nd Floor, Virmani Tower 160, Add-3A, near Kapoor Hospital, New Industrial Twp 3, Faridabad, Haryana 121001", desc: "Visit us for in-person sessions" },
                   { icon: Clock, title: "Response Time", value: "Within 24 Hours", desc: "We respond to all messages" },
                 ].map((item) => (
                   <div key={item.title} data-testid={`contact-info-${item.title.toLowerCase()}`} className="flex gap-4 p-4 rounded-xl border border-border bg-card">

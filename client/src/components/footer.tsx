@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Brain, Linkedin, Instagram, Youtube, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { Linkedin, Instagram, Youtube, Facebook, Mail, Phone, MapPin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,13 +7,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
-                <Brain className="w-5 h-5 text-white" />
+            <Link href="/" className="flex items-center gap-2.5 mb-4">
+              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-600 to-violet-600 flex items-center justify-center shadow-sm">
+                <span className="text-white font-black text-xs tracking-tight leading-none">IIAI</span>
               </div>
               <div className="flex flex-col leading-none">
                 <span className="font-bold text-sm tracking-tight text-white">AI Learning</span>
-                <span className="text-xs text-gray-400 font-medium">by IIEL</span>
+                <span className="text-[10px] text-gray-400 font-medium tracking-wide uppercase">by IIAI</span>
               </div>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed mb-5">
@@ -78,15 +78,15 @@ export function Footer() {
             <ul className="flex flex-col gap-3">
               <li className="flex items-start gap-2.5">
                 <Mail className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-gray-400">info@ailearning.iiel.edu</span>
+                <a href="mailto:iiaifaridabad@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors">iiaifaridabad@gmail.com</a>
               </li>
               <li className="flex items-start gap-2.5">
                 <Phone className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-gray-400">+1 (555) 123-4567</span>
+                <a href="tel:+919891832103" className="text-sm text-gray-400 hover:text-white transition-colors">098918 32103</a>
               </li>
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-gray-400">IIEL Campus, Technology District</span>
+                <span className="text-sm text-gray-400 leading-snug">2nd Floor, Virmani Tower 160, Add-3A, near Kapoor Hospital, New Industrial Twp 3, Faridabad, Haryana 121001</span>
               </li>
             </ul>
           </div>
@@ -94,7 +94,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} AI Learning by IIEL. All rights reserved.
+            &copy; {new Date().getFullYear()} AI Learning by IIAI. All rights reserved.
           </p>
           <p className="text-xs text-gray-500">
             Empowering the next generation of AI-ready professionals.

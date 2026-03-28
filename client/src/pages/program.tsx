@@ -176,7 +176,7 @@ export default function Program() {
               { icon: Clock, text: "90 Minutes" },
               { icon: Brain, text: "5 Core Modules" },
               { icon: Target, text: "100% Practical" },
-              { icon: Award, text: "IIEL Certified" },
+              { icon: Award, text: "IIAI Certified" },
             ].map((item) => (
               <div key={item.text} className="flex items-center gap-2">
                 <item.icon className="w-4 h-4 text-blue-400" />
@@ -220,7 +220,7 @@ export default function Program() {
               { label: "Duration", value: "90 Minutes", icon: Clock, desc: "One intensive session covering all 5 modules" },
               { label: "Format", value: "Hands-On", icon: Zap, desc: "Live demonstrations with real prompts and outputs" },
               { label: "Level", value: "All Levels", icon: Users, desc: "No prior experience or technical knowledge required" },
-              { label: "Certification", value: "IIEL Certified", icon: Award, desc: "Official certificate upon successful completion" },
+              { label: "Certification", value: "IIAI Certified", icon: Award, desc: "Official certificate upon successful completion" },
             ].map((item) => (
               <div key={item.label} data-testid={`info-card-${item.label}`} className="p-5 rounded-xl border border-border bg-card">
                 <div className="flex items-center gap-3 mb-3">

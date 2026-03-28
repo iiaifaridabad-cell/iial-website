@@ -140,7 +140,7 @@ export default function Curriculum() {
               { icon: CalendarDays, text: "3 Months" },
               { icon: Users, text: "24 Sessions" },
               { icon: Clock, text: "8 Sessions/Month" },
-              { icon: Award, text: "IIEL Certified" },
+              { icon: Award, text: "IIAI Certified" },
             ].map((item) => (
               <div key={item.text} className="flex items-center gap-2">
                 <item.icon className="w-4 h-4 text-blue-400" />
@@ -216,7 +216,7 @@ export default function Curriculum() {
               { label: "Duration", value: "3 Months", icon: CalendarDays, desc: "Structured monthly progression with clear milestones" },
               { label: "Total Sessions", value: "24 Live Sessions", icon: Users, desc: "8 sessions per month, hands-on and practical" },
               { label: "Level", value: "All Levels", icon: Target, desc: "No technical or coding experience required" },
-              { label: "Certification", value: "IIEL Certified", icon: Award, desc: "Official certificate added to LinkedIn and CV" },
+              { label: "Certification", value: "IIAI Certified", icon: Award, desc: "Official certificate added to LinkedIn and CV" },
             ].map((item) => (
               <div key={item.label} data-testid={`detail-${item.label}`} className="p-5 rounded-xl border border-border bg-card flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -241,7 +241,7 @@ export default function Curriculum() {
                   "Hands-on AI practice each session",
                   "Prompt engineering training",
                   "Business automation examples",
-                  "IIEL certificate of completion",
+                  "IIAI certificate of completion",
                 ].map((item) => (
                   <div key={item} className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />

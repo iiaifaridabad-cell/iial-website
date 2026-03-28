@@ -14,8 +14,8 @@ const faqCategories = [
     category: "About the Program",
     faqs: [
       {
-        q: "What is AI Learning by IIEL?",
-        a: "AI Learning by IIEL is a 3-month structured AI training program that teaches practical AI skills for real business use. Developed by IIEL, the program covers 24 sessions over 3 months, helping students, freshers, professionals, and business owners learn how to use AI tools effectively in everyday work.",
+        q: "What is AI Learning by IIAI?",
+        a: "AI Learning by IIAI is a 3-month structured AI training program that teaches practical AI skills for real business use. Developed by IIAI, the program covers 24 sessions over 3 months, helping students, freshers, professionals, and business owners learn how to use AI tools effectively in everyday work.",
       },
       {
         q: "Is the course beginner friendly?",
@@ -27,7 +27,7 @@ const faqCategories = [
       },
       {
         q: "What makes this different from other AI courses?",
-        a: "Most AI courses focus on theory or technical foundations. AI Learning by IIEL is built entirely around practical business use cases — the tasks you actually do at work. Every module uses real prompts, real outputs, and real business scenarios, so you finish with skills you can apply immediately.",
+        a: "Most AI courses focus on theory or technical foundations. AI Learning by IIAI is built entirely around practical business use cases — the tasks you actually do at work. Every module uses real prompts, real outputs, and real business scenarios, so you finish with skills you can apply immediately.",
       },
     ],
   },
@@ -65,7 +65,7 @@ const faqCategories = [
       },
       {
         q: "Will I receive a certificate?",
-        a: "Yes, upon completing the 3-month program you will receive an official IIEL certificate of completion. This is a recognized credential you can add to your LinkedIn profile, resume, and job applications to validate your practical AI skills.",
+        a: "Yes, upon completing the 3-month program you will receive an official IIAI certificate of completion. This is a recognized credential you can add to your LinkedIn profile, resume, and job applications to validate your practical AI skills.",
       },
     ],
   },
@@ -99,7 +99,7 @@ export default function FAQ() {
             Frequently Asked Questions
           </h1>
           <p className="text-xl text-gray-300 leading-relaxed">
-            Everything you need to know about AI Learning by IIEL. Can't find your answer? Contact us directly.
+            Everything you need to know about AI Learning by IIAI. Can't find your answer? Contact us directly.
           </p>
         </div>
       </section>

@@ -81,7 +81,7 @@ const outcomes = [
   { icon: Target, title: "Job-Ready Skills", desc: "Walk out with skills you can put on your resume and demonstrate in interviews." },
   { icon: TrendingUp, title: "Salary Premium", desc: "AI-proficient professionals earn 15-40% more than peers without AI skills." },
   { icon: Zap, title: "Immediate Application", desc: "Apply the skills the very next day at your current job or in interviews." },
-  { icon: Award, title: "IIEL Certification", desc: "Recognized credential to add to LinkedIn, resume, and job applications." },
+  { icon: Award, title: "IIAI Certification", desc: "Recognized credential to add to LinkedIn, resume, and job applications." },
 ];
 
 export default function Careers() {
@@ -122,7 +122,7 @@ export default function Careers() {
             <Badge className="mb-4" variant="secondary">Career Paths</Badge>
             <h2 className="text-3xl font-bold text-foreground mb-4">Career Opportunities for AI-Ready Professionals</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              These are the roles where AI Learning by IIEL graduates are finding success.
+              These are the roles where AI Learning by IIAI graduates are finding success.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

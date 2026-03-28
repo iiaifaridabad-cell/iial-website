@@ -339,7 +339,7 @@ export default function Home() {
               { icon: CalendarDays, text: "3-Month Program" },
               { icon: Users, text: "24 Live Sessions" },
               { icon: Star, text: "4.9 / 5 Rating" },
-              { icon: Award, text: "IIEL Certified" },
+              { icon: Award, text: "IIAI Certified" },
             ].map((item) => (
               <div key={item.text} className="flex items-center gap-2">
                 <item.icon className="w-4 h-4 text-blue-400" />
@@ -396,7 +396,7 @@ export default function Home() {
                 Practical AI Learning for Real Work
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                AI Learning by IIEL is built around practical AI applications used in real businesses and professional workflows. Instead of focusing only on theory, the program teaches participants how to apply AI in ways that improve productivity, decision-making, and work efficiency.
+                AI Learning by IIAI is built around practical AI applications used in real businesses and professional workflows. Instead of focusing only on theory, the program teaches participants how to apply AI in ways that improve productivity, decision-making, and work efficiency.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Learners explore how AI can support data analysis, marketing automation, business communication, coding productivity, presentation generation, and workflow automation.
@@ -406,7 +406,7 @@ export default function Home() {
               </p>
               <Link href="/about">
                 <Button data-testid="button-about-learn-more" variant="outline" className="gap-2">
-                  Learn More About IIEL
+                  Learn More About IIAI
                   <ChevronRight className="w-4 h-4" />
                 </Button>
               </Link>
@@ -739,9 +739,9 @@ export default function Home() {
       <section data-testid="section-why-choose" className="py-24 bg-gray-50 dark:bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <Badge className="mb-4" variant="secondary">Why IIEL</Badge>
+            <Badge className="mb-4" variant="secondary">Why IIAI</Badge>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              Why Choose AI Learning by IIEL
+              Why Choose AI Learning by IIAI
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
